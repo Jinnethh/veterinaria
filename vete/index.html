@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="todo">
+    <h2>Agenda tu cita</h2>
+  </div>
+    <div id="valores">
+     <h2 id="va">Datos del paciente</h2>
+      <div id="campo">
+        <img id="huella" src="./mascotas.png" alt="">
+        <label for="tipo-mascota">Tipo de mascota:</label>
+        <select id="tipo-mascota" required>
+          <option value="perro">Perro</option>
+          <option value="gato">Gato</option>
+          <option value="otro">Conejo</option>
+        </select>
+      </div>
+      <div id="campo">
+        <img id="huella" src="./perro.png" alt="">
+        <label for="nombre-mascota">Nombre de la mascota:</label>
+        <input type="text" id="nombre-mascota" placeholder="Nombre de la mascota" required>
+      </div>
+      <div id="campo">
+        <img id="huella" src="./personas.png" alt="">
+        <label for="propietario">Nombre del propietario:</label>
+        <input type="text" id="propietario" placeholder="Nombre del propietario" required>
+      </div>
+      <div id="campo">
+        <img id="huella" src="./animal-rescue-call.png" alt="">
+        <label for="telefono">Teléfono del propietario:</label>
+        <input type="tel" id="telefono" placeholder="Teléfono del propietario" required>
+      </div>
+      <div id="campo">
+        <img id="huella" src="./vacuna-para-mascotas.png" alt="">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" required>
+      </div>
+      <div id="campo">
+        <img id="huella" src="./guarderia.png" alt="">
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" required>
+      </div>
+      <div id="campo">
+       
+        <label  for="sintomas" id="sinto">Síntomas:</label>
+        <input type="text" id="sintomas" placeholder="Síntomas" required>
+      </div>
+      <div class="boton">
+        <button onclick="crear()">Crear cita</button>
+      </div>
+    </div>
+    <h2 id="com">Administra tus citas</h2>
+  <div id="citas-cartas"></div>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>

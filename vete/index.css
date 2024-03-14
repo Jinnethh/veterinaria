@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  background-color: #ede6db;
+
+}
+@font-face{
+  font-family: "Noteworthy Light";
+  src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
+  src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy Light")format("svg");
+
+}
+
+#valores{
+  display: flex;
+  flex-direction: column;
+  padding: 10px ; 
+  /* box-shadow: 0 0 20px #ebe6ea; */
+  /* background-color: #ebe6ea; */
+  width: 49.5%;
+  gap: 10px;
+  align-items: center;
+  margin-left: 25%;
+ 
+
+}
+
+#sinto{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sintomas{
+margin-left: 20px;
+width: 80%;
+align-items: center;
+height: 50px;
+border-radius: 10px;
+display: flex;
+}
+#huella{
+  width: 30px;
+}
+#sim{
+  width: 40px;
+}
+
+#gif{
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 70%;
+}
+.todo{
+ background-image: url(./deohc1y-5437d2c3-9898-4159-93d-unscreen.gif);
+ width: 100%;
+ height: 35vh;
+ background-position: right;
+ align-items: center;
+    font-size: 50px;
+    background-repeat: no-repeat;
+   background-color: #acba9d;
+    background-size: 300px auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Noteworthy Light";
+}
+
+#campo{
+  padding-top: 20px;
+}
+
+.cita{
+  background-color: #8fbdd3;
+  width: 80%;
+ border-radius: 20px;
+ 
+
+ transition: 3s;
+ padding: 20px;
+}
+.cita:hover{
+  background-color: #acba9d;
+  box-shadow: 0 0 20px black
+
+}
+
+#com{
+  left: 60%;
+  top: 35%;
+ margin-left: 98px;
+ display: flex;
+ flex-direction: column;
+ padding: 10px ; 
+ box-shadow: 0 0 20px #8fbdd3;
+ /* background-color: #ebe6ea; */
+ width: 49.5%;
+ gap: 10px;
+ align-items: center;
+ margin-left: 25%;
+ font-family: "Noteworthy Light";
+}
+
+#gt{
+  width: 45%;
+padding-left: 80px;
+}
+#citas-cartas{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+gap: 20px;
+align-items: center;
+justify-content: center;
+padding-left: 45px;}
+
+#gto{
+  width: 34%;
+  padding-left: 99px;
+}
+#gta{
+  width: 54%;
+  padding-left: 80px;
+}
+
+button{
+  border-radius: 10px;
+  height: 30px;
+  width: 90px;
+}
+
+#va{
+  font-family: "Noteworthy Light";
+  
+
+}
+
